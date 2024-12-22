@@ -1,0 +1,137 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Fonts */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0044cc;
+    padding: 10px 20px;
+}
+
+.navbar .logo a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar .nav-links {
+    list-style-type: none;
+}
+
+.navbar .nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero p {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 30px;
+    margin-top: 20px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #e65c00;
+}
+
+/* Info Sections */
+.info-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.info-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.info-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.info-section ul {
+    list-style-type: none;
+    text-align: left;
+    display: inline-block;
+}
+
+.info-section ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #0044cc;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .navbar .nav-links {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .navbar .nav-links li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+}
